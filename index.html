@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="game.js" charset="utf-8" defer></script>
+</head>
+
+<body>
+
+    <body onload="gameXO()">
+        <h2>Хрестики-нолики:</h2>
+        <div id="game">
+            <div class="table">
+                <!-- створила таблицю для гри -->
+                <table style="border-spacing: 0px;">
+                    <tr>
+                        <td>
+                            <div style="border-top: 0; border-left: 0px;" class="inner"></div>
+                        </td>
+                        <td>
+                            <div style="border-top: 0;" class="inner"></div>
+                        </td>
+                        <td>
+                            <div style="border-top: 0; border-right: 0px;" class="inner"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div style="border-left: 0px;" class="inner"></div>
+                        </td>
+                        <td>
+                            <div class="inner"></div>
+                        </td>
+                        <td>
+                            <div style="border-right: 0px;" class="inner"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div style="border-bottom: 0; border-left: 0px;" class="inner"></div>
+                        </td>
+                        <td>
+                            <div style="border-bottom: 0;" class="inner"></div>
+                        </td>
+                        <td>
+                            <div style="border-bottom: 0; border-right: 0px;" class="inner"></div>
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="winning"></div>
+            </div>
+
+            <div id="win_block">
+                <span class="winner"></span> <br>
+                <span class="again">Грати знову</span>
+            </div>
+            <!-- елементи, які будуть оголошувати кінець гри(переможців) та кнопка повтору-->
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,44 @@
+h2 {
+    text-align: center;
+}
+/* текст по центру */
+
+.inner {
+    width: 50px; /* ширина */
+    height: 50px; /* висота */
+    font-size: 20px; /* розмір тексту */
+    line-height: 50px; /* висота рядку */
+    text-align: center; /* текст по центру */
+    text-transform: uppercase; /* нижній курсив */
+    border: 2px solid black; /* межі */
+    margin: -1px; /* зовнішній відступ */
+    cursor: pointer; /* мишка курсив */
+}
+
+#win_block {
+    text-align: center; /* текст по центру */
+    padding-top: 20px; /* внутрішній відступ */
+    font-size: 18px; /* розмір тексту */
+}
+
+.again {
+    font-weight: bold; /* жирність тексту */
+    cursor: pointer; /* мишка курсив */
+    color: blue; /* колір тексту */
+    border-bottom: 1px solid blue; /* межі */
+}
+
+.again:hover {
+    border-color: transparent; /* колір меж */
+}
+
+.table {
+    display: table; /* таблиця */
+    margin: 0 auto; /* зовнішній відступ(центрування) */
+}
+
+.winning {
+    display: none; /* блоку нема */
+    width: 100%; /* ширина */
+    height: 100%; /* висота */
+}
